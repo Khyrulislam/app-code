@@ -1,0 +1,105 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+    .header-content h1{
+        font-size: 35px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .btn-btn{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .press-contant img{
+        width: 100%;
+    }
+    .product-menager img {
+        margin-left: 45%;
+    }
+    .product-img img {
+        margin-left: 45%;
+    }
+ }
+
+/* // (sm)Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+/* header-content start */
+    .header-content h1{
+        font-size: 45px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .btn-btn{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .press-contant img{
+        width: 100%;
+    }
+    .product-menager img {
+        margin-left: 50%;
+    }
+    .product-img img {
+        margin-left: 50%;
+    }
+  
+ }
+/* header-content end */
+ 
+
+/* // (md) Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    .header-content h1{
+        font-size: 40px;
+    }
+   
+    .product-menager img {
+        margin-left: 60%;
+    }
+    .product-img img {
+        margin-left: 60%;
+    }
+ }
+
+/* // (lg)Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    .header-content h1{
+        font-size: 45px;
+    }
+    .product-menager img {
+        margin-left: 65%;
+    }
+    .product-img img {
+        margin-left: 65%;
+    }
+    .nav--btn{ 
+        margin: 0px 10px;
+    }
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+    .product-menager img {
+        margin-left: 70%;
+    }
+    .product-img img {
+        margin-left: 70%;
+    }
+    .nav--btn{ 
+        margin: 0px 10px;
+    }
+ }
+ 
+@media (min-width:320px) and (max-width:575px) { 
+    .himu{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+ }

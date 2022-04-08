@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+/* nav-bar section css */
+.navbar-design{
+    font-size: 17px;
+    font-weight: 500;
+}
+.navbar-design{
+    color: rgb(59, 58, 58) !important;
+    transition: 0.5s !important;
+    position: relative !important;
+    overflow: hidden;
+}
+.navbar-design:hover{
+    color: #0062A4 !important;
+}
+.navbar-design::before{
+    content: "";
+    width: 100%;
+    height: 4px;
+    top:-100%;
+    left: 0;
+    background-color: #0062A4;
+    position: absolute;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s;
+
+}
+.navbar-design:hover.navbar-design::before{
+    top: 0 !important;
+    left: 0 !important;
+    box-shadow: 5px 10px 20px #0062A4 ;
+}
+/* nav dropdown css */
+/* nav--btn css */
+.nav--btn{ 
+    display: flex;
+    gap: 10px;
+}
+.sing_up-btn{
+    background: #0146221f;
+    border-radius: 3px;
+}
+.sing_up-btn a{
+    color: #01A651 !important;
+    padding: 8px 30px !important;
+    font-weight: 500;
+    font-size: 18px;
+}
+.sing_in-btn{
+    background: #0062A4;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.sing_in-btn a{
+    color: #ffffff !important;
+    padding: 8px 30px !important;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+.sing_in-btn:hover{
+    background: #045286;
+}
+
+/* maria_DB section css  */
+
+#maria_DB{
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+
+.maria_DB-content-left{
+    background-image: url(../img/blog/s-3.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 70vh;
+}
+
+.maria-wraper{
+    position: relative;
+}
+.icon{
+    
+        position: absolute;
+        width: 250px;
+        height: 300px;
+        border: 5px solid rgb(47, 14, 194);
+        top: 150px;
+        right: -80px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        padding: 0px 10px 0px 0px;
+    
+}
+.single-icon i{
+    font-size: 20px;
+    color: #fff;
+}
+.single-icon{
+    width: 50px;
+    height: 50px;
+    background: #045286;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+    border-radius: 50%;
+}
+
+.btn-icon{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background: #fff;
+    bottom: 0;
+}
+
+.single-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+}
+.single-btn i{
+    font-size: 60px;
+    font-weight: 300;
+}
+
+/* categories section css */
+
+.left-slider{
+    position: sticky;
+    top: 82px;
+    padding-left: 20px;
+}
+.right-content {
+    margin: 25px;
+}
+.slider-content{
+    height: 800px;
+    overflow: scroll;
+}
+.slider-content::-webkit-scrollbar{
+    display: block;
+}
+.slider-content li{
+    list-style: none;
+}
+.slider-content li a{
+    font-weight: 500;
+    color: #888888;
+    padding: 15px 0px;
+}
+
+
+
+
+
+
+
+/* footer section css */
+
+#footer{
+    margin: 30px 0; 
+}
+
+.f-content h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.f-content p {
+    font-size: 15px;
+    color: #888888;
+}
+
+.email {
+    width: 270px;
+    border: 1px solid #ddd;
+    padding: 10px 10px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    background: #d40c3711;
+    margin-bottom: 35px;
+}
+.email{
+    border-color:#01A651;
+}
+.input input{
+    outline: #01A651 !important;
+}
+.control { 
+    display: flex;
+}
+.input-btn a{
+    padding: 6px 13px;
+    font-size: 20px;
+    color: #01A651;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+.input-btn{
+    margin-top: 6px;
+    margin-left: 223px;
+    position: absolute;
+    z-index: 1;
+}
+.control input::selection{
+    background: #01A651;
+    color: #fff;
+}
+.input-btn a:hover{
+    color: #fff;
+    background-color: #01A651;
+}
+
+.f-wraper a {
+    display: block;
+    color: #888888;
+    padding: 5px 0px;
+}
+.f-products h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color:rgb(39, 39, 39);
+}
+
+.f-products a {
+    display: block;
+    color: rgb(75, 73, 73);
+    padding: 10px 0px;
+    transition: 0.5s;
+    font-size: 15px;
+    font-weight: 500;
+}
+.f-services h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color:rgb(39, 39, 39);
+}
+
+.f-services a {
+    display: block;
+    color: rgb(75, 73, 73);
+    padding: 10px 0px;
+    transition: 0.5s;
+    font-size: 15px;
+    font-weight: 500;
+}
+.f-company h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color:rgb(39, 39, 39);
+}
+
+.f-company a {
+    display: block;
+    color: rgb(75, 73, 73);
+    padding: 10px 0px;
+    transition: 0.5s;
+    font-size: 15px;
+    font-weight: 500;
+}
+.f-legal h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color:rgb(39, 39, 39);
+}
+
+.f-legal a {
+    display: block;
+    color: rgb(75, 73, 73);
+    padding: 10px 0px;
+    transition: 0.5s;
+    font-size: 15px;
+    font-weight: 500;
+}
+.f-products a:hover{
+    color: #01A651;
+    padding: 10px 5px;
+}
+.f-services a:hover{
+    color: #01A651;
+    padding: 10px 5px;
+}
+.f-company a:hover{
+    color: #01A651;
+    padding: 10px 5px;
+}
+.f-legal a:hover{
+    color: #01A651;
+    padding: 10px 5px;
+    
+}
+.f-wraper h4{
+    font-size: 20px;
+    font-weight: 500;
+    color:rgb(39, 39, 39);
+}
+.f-wraper a{
+    color: #575757;
+    font-weight: 400;
+}
+.f-wraper{
+    margin-bottom: 30px;
+}
+
+/* footer-end section css */
+
+.footer-end-content h4 {
+    font-size: 17px;
+    font-weight: 400;
+}
+.privacy a{
+    display: block;
+    color:rgb(39, 39, 39);
+    font-weight: 400;
+    transition: 0.5s;
+}
+
+.Terams a{
+    display: block;
+    color:rgb(39, 39, 39);
+    font-weight: 400;
+    transition: 0.5s;
+}
+.privacy a:hover{
+    color: #01A651;
+}
+.Terams a:hover{
+    color: #01A651;
+}
+
+.footer-end-wraper {
+    display: flex;
+    gap: 30px;
+}
+.footer-end-icon a {
+        color: #8a8a8a;
+        font-size: 14px;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        border: 1px solid #8a8a8a;
+        border-radius: 50%;
+        transition: .3s ease-in-out;
+}
+.footer-end-icon a:hover{
+    color: #fff;
+    background: #01A651;
+    border: 1px solid #01A651;
+}
+/* scroll top css */
+.icofont-arrow-up {
+    width: 50px;
+    color: #fff;
+    height: 50px;
+    background: #01a65181;
+    display:block;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    right: 30px;
+    bottom: 120px;
+    z-index: 99999;
+    transform: opacity .4s;
+
+}

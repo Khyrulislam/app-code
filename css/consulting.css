@@ -1,0 +1,527 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+a{
+    text-decoration: none;
+}
+.dropdown-menu  {
+    padding: 0 !important;
+    width: 0 !important;
+    border: none !important;
+}
+
+/* nav-bar section css */
+.navbar-design{
+    font-size: 17px;
+    font-weight: 500;
+}
+.navbar-design{
+    color: rgb(59, 58, 58) !important;
+    transition: 0.5s !important;
+}
+.navbar-design:hover{
+    color: #01A651 !important;
+}
+/* nav dropdown css */
+.dropdown-items{
+    width: 450px;
+    height: 365px;
+    border-radius: 5px;
+    box-shadow:2px 2px 5px #888888 ;
+    background-color: #fff;
+}
+.product-items-left-1{
+    padding: 5px;
+    transition: 0.5s;
+    margin: 10px;
+}
+.product-items-left-1 a{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+.product-items-left-1 p{
+    font-size: 15px;
+    color: rgb(95, 94, 94);
+    cursor: pointer;
+}
+.product-items-left-2{
+    padding: 5px;
+    transition: 0.5s;
+    margin: 10px;
+}
+.product-items-left-2 a{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+.product-items-left-2 p{
+    font-size: 15px;
+    color: rgb(95, 94, 94);
+    cursor: pointer;
+}
+.product-items-left-3{
+    padding: 5px;
+    transition: 0.5s;
+    margin: 10px;
+}
+.product-items-left-3 a{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+.product-items-left-3 p{
+    font-size: 15px;
+    color: rgb(95, 94, 94);
+    cursor: pointer;
+}
+.product-items-left-1:hover {
+    background: rgba(0, 0, 255, 0.425);
+    border-radius: 5px;
+}
+.product-items-left-2:hover {
+    background: rgba(255, 0, 13, 0.425);
+    border-radius: 5px;
+}
+.product-items-left-3:hover {
+    background: rgba(0, 255, 98, 0.425);
+    border-radius: 5px;
+}
+.product-items-right-1{
+    padding: 5px;
+    transition: 0.5s;
+    margin: 10px;
+}
+.product-items-right-1 p{
+    font-size: 15px;
+    color: rgb(95, 94, 94);
+    cursor: pointer;
+}
+.product-items-right-1 a{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+.product-items-right-1-btn a{
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+.product-items-right-2{
+    padding: 5px;
+    transition: 0.5s;
+    margin: 10px;
+}
+.product-items-right-2 a{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+.product-items-right-2 p{
+    font-size: 15px;
+    color: rgb(95, 94, 94);
+    cursor: pointer;
+}
+.product-items-right-1:hover{
+    background: rgba(0, 132, 255, 0.425);
+    border-radius: 5px;
+    
+}
+.product-items-right-2:hover{
+    background: rgba(255, 0, 200, 0.425);
+    border-radius: 5px;
+}
+.product-items-right-3{
+    padding: 5px;
+    transition: 0.5s;
+    margin: 10px;
+}
+.product-items-right-3 a{
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+.product-items-right-3 p{
+    font-size: 15px;
+    color: rgb(95, 94, 94);
+    cursor: pointer;
+}
+.product-items-right-3:hover{
+    background: rgba(0, 247, 255, 0.473);
+    border-radius: 5px;
+}
+.services-items{
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.services-items:hover{
+    background: #01A651;
+    width: 100%;
+}
+.service-list a{
+    transition: 0s;
+}
+.service-list a:hover{
+    color: aliceblue;
+}
+/* nav--btn css */
+.slack-logo{
+    box-shadow:2px 2px 5px #888888 ;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.slack-logo img{
+    padding: 0 5px;
+}
+.slack-logo a{
+    color: #10b6c2 !important;
+    font-weight: 500;
+    padding: 10px 20px !important;
+}
+.slack-logo:hover{
+    background: rgb(66, 19, 19);
+    box-shadow: none;
+}
+.chat-logo{
+    box-shadow:2px 2px 5px #888888 ;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.chat-logo img{
+    padding: 0 5px;
+}
+.nav--btn{
+    display: flex;
+    gap: 10px;
+}
+.chat-logo a{
+
+    color: #9D0A0E !important;
+    font-weight: 500;
+    padding: 10px 20px !important;
+}
+.chat-logo:hover{
+    background: rgb(66, 19, 19);
+    box-shadow: none;
+}
+
+/* headser section start */
+
+.header-content p {
+    margin: auto;
+    color: #888888;
+    font-size: 20px;
+}
+
+#our-expert {
+    padding: 60px;
+}
+
+.header-content h1 {
+    font-size: 55px;
+    margin-top: 40px;
+    color: #575757;
+    font-weight: 400;
+}
+.header-content h1::selection{
+    color: #fff;
+    background: #01A651;
+}
+.header-content p::selection{
+    color: #fff;
+    background: #01A651;
+}
+.btn- {
+    margin-top: 25px;
+}
+
+.btn- a {
+    display: inline-block;
+    padding: 10px 50px;
+    background:#01A651;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.btn- a:hover{
+    transform: translatey(-2px);
+    box-shadow:2px 2px 10px #888888  ;
+}
+
+/* appscode offers section css */
+
+#appcode-0ffer{
+    padding: 60px;
+}
+
+.offer-hadding{
+    margin-bottom: 60px;
+    font-size: 40px;
+    font-weight: 400;
+    color: rgba(34, 34, 34, 0.904);
+}
+.offer-content{
+    text-align: center;
+}
+.offer-content h4{
+    color: rgba(0, 0, 0, 0.925);
+    font-size: 20px;
+    font-weight: 500;
+}
+.offer-content p{
+    color: #575757;
+    font-weight: 400;
+}
+
+
+
+/* worked section css */
+
+.worked-content h5{
+    font-size: 30px;
+    padding: 15px;
+}
+
+.worked-content img{
+    padding: 20px;
+}
+
+.product-menager{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+.product-menager img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 70%;
+}
+.client-info h5{
+    font-size: 15px;
+    padding: 2px 5px;
+}
+.client-info p{
+    font-size: 13px;
+    padding: 0px 5px;
+    color: #888888;
+}
+
+
+
+/* footer section css */
+
+#footer{
+    margin: 30px 0; 
+}
+
+.f-content h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.f-content p {
+    font-size: 15px;
+    color: #888888;
+}
+
+.email {
+    width: 270px;
+    border: 1px solid #ddd;
+    padding: 10px 10px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    background: #d40c3711;
+    margin-bottom: 35px;
+}
+.email{
+    border-color:#01A651;
+}
+.input input{
+    outline: #01A651 !important;
+}
+.control { 
+    display: flex;
+}
+.input-btn a{
+    padding: 6px 13px;
+    font-size: 20px;
+    color: #01A651;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+.input-btn{
+    margin-top: 6px;
+    margin-left: 223px;
+    position: absolute;
+    z-index: 1;
+}
+.control input::selection{
+    background: #01A651;
+    color: #fff;
+}
+.input-btn a:hover{
+    color: #fff;
+    background-color: #01A651;
+}
+
+.f-wraper a {
+    display: block;
+    color: #888888;
+    padding: 5px 0px;
+}
+.f-products h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color:rgb(39, 39, 39);
+}
+
+.f-products a {
+    display: block;
+    color: rgb(75, 73, 73);
+    padding: 10px 0px;
+    transition: 0.5s;
+    font-size: 15px;
+    font-weight: 500;
+}
+.f-services h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color:rgb(39, 39, 39);
+}
+
+.f-services a {
+    display: block;
+    color: rgb(75, 73, 73);
+    padding: 10px 0px;
+    transition: 0.5s;
+    font-size: 15px;
+    font-weight: 500;
+}
+.f-company h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color:rgb(39, 39, 39);
+}
+
+.f-company a {
+    display: block;
+    color: rgb(75, 73, 73);
+    padding: 10px 0px;
+    transition: 0.5s;
+    font-size: 15px;
+    font-weight: 500;
+}
+.f-legal h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color:rgb(39, 39, 39);
+}
+
+.f-legal a {
+    display: block;
+    color: rgb(75, 73, 73);
+    padding: 10px 0px;
+    transition: 0.5s;
+    font-size: 15px;
+    font-weight: 500;
+}
+.f-products a:hover{
+    color: #01A651;
+    padding: 10px 5px;
+}
+.f-services a:hover{
+    color: #01A651;
+    padding: 10px 5px;
+}
+.f-company a:hover{
+    color: #01A651;
+    padding: 10px 5px;
+}
+.f-legal a:hover{
+    color: #01A651;
+    padding: 10px 5px;
+    
+}
+.f-wraper h4{
+    font-size: 20px;
+    font-weight: 500;
+    color:rgb(39, 39, 39);
+}
+.f-wraper a{
+    color: #575757;
+    font-weight: 400;
+}
+.f-wraper{
+    margin-bottom: 30px;
+}
+
+/* footer-end section css */
+
+.footer-end-content h4 {
+    font-size: 17px;
+    font-weight: 400;
+}
+.privacy a{
+    display: block;
+    color:rgb(39, 39, 39);
+    font-weight: 400;
+    transition: 0.5s;
+}
+
+.Terams a{
+    display: block;
+    color:rgb(39, 39, 39);
+    font-weight: 400;
+    transition: 0.5s;
+}
+.privacy a:hover{
+    color: #01A651;
+}
+.Terams a:hover{
+    color: #01A651;
+}
+
+.footer-end-wraper {
+    display: flex;
+    gap: 30px;
+}
+.footer-end-icon a {
+        color: #8a8a8a;
+        font-size: 14px;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        border: 1px solid #8a8a8a;
+        border-radius: 50%;
+        transition: .3s ease-in-out;
+}
+.footer-end-icon a:hover{
+    color: #fff;
+    background: #01A651;
+    border: 1px solid #01A651;
+}
+/* scroll top css */
+.icofont-arrow-up {
+    width: 50px;
+    color: #fff;
+    height: 50px;
+    background: #01a65181;
+    display:block;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    right: 30px;
+    bottom: 120px;
+    z-index: 99999;
+    transform: opacity .4s;
+}
