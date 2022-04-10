@@ -46,6 +46,14 @@
     .product-img img {
         margin-left: 50%;
     }
+
+    /* blolg slider content css start */
+    .slider-content{
+        height: 250px;
+        overflow: scroll;
+        width: 280px;
+    }
+    /* blolg slider content css end */
   
  }
 /* header-content end */

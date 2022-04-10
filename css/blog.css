@@ -140,15 +140,15 @@ a{
 
 .left-slider{
     position: sticky;
-    top: 82px;
-    padding-left: 20px;
+    top: 67px;
 }
 .right-content {
-    margin: 25px;
+    
 }
 .slider-content{
     height: 800px;
     overflow: scroll;
+    width: 280px;
 }
 .slider-content::-webkit-scrollbar{
     display: block;
@@ -159,7 +159,6 @@ a{
 .slider-content li a{
     font-weight: 500;
     color: #888888;
-    padding: 15px 0px;
 }
 
 
